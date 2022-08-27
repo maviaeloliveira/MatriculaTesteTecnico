@@ -1,0 +1,17 @@
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\bin\Debug\net6.0\Matricula.Infrastructure.deps.json
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\bin\Debug\net6.0\Matricula.Infrastructure.runtimeconfig.json
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\bin\Debug\net6.0\Matricula.Infrastructure.dll
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\bin\Debug\net6.0\Matricula.Infrastructure.pdb
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\bin\Debug\net6.0\Matricula.Domain.dll
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\bin\Debug\net6.0\Matricula.Domain.pdb
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.csproj.AssemblyReference.cache
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.AssemblyInfo.cs
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.csproj.CopyComplete
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.dll
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\refint\Matricula.Infrastructure.dll
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.pdb
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\Matricula.Infrastructure.genruntimeconfig.cache
+C:\Projetos\docker\Matricula\Matricula.Infrastructure\obj\Debug\net6.0\ref\Matricula.Infrastructure.dll

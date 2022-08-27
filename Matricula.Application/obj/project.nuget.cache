@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7mA55vyPBY3ml1BpZKGxUWP/somxWRXbX8eDaklCXl0ICSotp72chjLyCob3S3Ao+Jp616JF/6lYvw31HZEy0w==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\docker\\Matricula\\Matricula.Application\\Matricula.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maviael\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Maviael\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\Maviael\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\Maviael\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
+    "C:\\Users\\Maviael\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Maviael\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

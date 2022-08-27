@@ -1,0 +1,15 @@
+C:\Projetos\docker\Matricula\Matricula.Application\bin\Debug\net6.0\Matricula.Application.deps.json
+C:\Projetos\docker\Matricula\Matricula.Application\bin\Debug\net6.0\Matricula.Application.dll
+C:\Projetos\docker\Matricula\Matricula.Application\bin\Debug\net6.0\Matricula.Application.pdb
+C:\Projetos\docker\Matricula\Matricula.Application\bin\Debug\net6.0\Matricula.Domain.dll
+C:\Projetos\docker\Matricula\Matricula.Application\bin\Debug\net6.0\Matricula.Domain.pdb
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.csproj.AssemblyReference.cache
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.AssemblyInfoInputs.cache
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.AssemblyInfo.cs
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.csproj.CopyComplete
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.dll
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\refint\Matricula.Application.dll
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\Matricula.Application.pdb
+C:\Projetos\docker\Matricula\Matricula.Application\obj\Debug\net6.0\ref\Matricula.Application.dll
