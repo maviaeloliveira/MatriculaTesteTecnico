@@ -42,7 +42,9 @@ namespace Matricula.Application.Services
             _unitOfWork.Commit();
         }
         public async Task Update(MatriculaAluno matriculaUpdate)
-        {            
+        {
+            //Estou partindo do princípio que essa é uma execução onde apenas os dados habilitados na tela para alteração foram: nome do aluno e a data de cadastro.
+            await _unitOfWork.alunoRepository.Update(matriculaUpdate.Aluno);
             await _unitOfWork.matriculaAlunoRepository.Update(matriculaUpdate);
             _unitOfWork.Commit();
         }

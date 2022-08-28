@@ -49,7 +49,7 @@ namespace Matricula.API.Controllers
         public async Task<ActionResult> AtualizarMatricula(int id, MatriculaAlunoUpdateDTO matriculaAlunoUpdateDTO)
         {
             if (id != matriculaAlunoUpdateDTO.Id)
-                return BadRequest();
+                return BadRequest("Informe o Id da matricula");
 
             var matriculaUpdate = _mapper.Map<MatriculaAluno>(matriculaAlunoUpdateDTO);
 
