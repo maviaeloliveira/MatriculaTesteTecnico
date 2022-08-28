@@ -11,5 +11,7 @@ namespace Matricula.Domain.Interfaces.Service
     {
         public Task<List<MatriculaAluno>> GetMatriculaPorAluno(string nome);
         public Task<List<MatriculaAluno>> GetMatriculas();
+        public Task InserirMatriculaComAlunoAleatoria();
+        public Task RemoveTodosRegistros();
     }
 }

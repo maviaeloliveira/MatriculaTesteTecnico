@@ -59,5 +59,7 @@ namespace Matricula.Application.Services
             await _unitOfWork.alunoRepository.Update(aluno);
             _unitOfWork.Commit();
         }
+
+        
     }
 }

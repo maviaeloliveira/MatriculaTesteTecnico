@@ -1,3 +1,9 @@
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.csproj.AssemblyReference.cache
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.AssemblyInfoInputs.cache
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.AssemblyInfo.cs
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.csproj.CoreCompileInputs.cache
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\appsettings.json
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.API.exe
@@ -7,6 +13,7 @@ C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.API.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.API.pdb
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Faker.NETCore.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -26,6 +33,7 @@ C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Microsoft.IdentityMo
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -36,6 +44,7 @@ C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\System.Runtime.Cachi
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\de-DE\Faker.NETCore.resources.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -56,13 +65,6 @@ C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.Applicatio
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.CrossCutting.pdb
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.Domain.pdb
 C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Matricula.Infrastructure.pdb
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.csproj.AssemblyReference.cache
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.AssemblyInfoInputs.cache
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.AssemblyInfo.cs
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.csproj.CoreCompileInputs.cache
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\scopedcss\bundle\Matricula.API.styles.css
@@ -72,4 +74,4 @@ C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\refint\Matricula.API
 C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.pdb
 C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.genruntimeconfig.cache
 C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\ref\Matricula.API.dll
-C:\Projetos\docker\Matricula\Matricula.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projetos\docker\Matricula\Matricula.API\obj\Debug\net6.0\Matricula.API.MvcApplicationPartsAssemblyInfo.cs

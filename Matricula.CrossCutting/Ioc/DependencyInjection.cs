@@ -1,4 +1,5 @@
-﻿using Matricula.Application.Mappings;
+﻿using Matricula.Application.Interfaces;
+using Matricula.Application.Mappings;
 using Matricula.Application.Services;
 using Matricula.Domain.Interfaces;
 using Matricula.Domain.Interfaces.Service;
@@ -21,8 +22,14 @@ namespace Matricula.CrossCutting.Ioc
         {
             services.AddScoped<NotificationContext>();
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+
             services.AddScoped<IMatriculaAlunoService, MatriculaAlunoService>();
-            services.AddScoped<AlunoService, AlunoService>();
+            services.AddScoped<IAlunoService, AlunoService>();
+            services.AddScoped<IProcessImportService, ProcessImportService>();
+            
+            //Definido como singleton, pois a intenção é que se mantenha o mesmo objeto durante o ciclo de vida.
+            services.AddSingleton<IConfiguracaoSistemaService, ConfiguracaoSistemaService>();
+            
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;

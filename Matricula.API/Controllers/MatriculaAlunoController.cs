@@ -24,12 +24,11 @@ namespace Matricula.API.Controllers
         /// <summary>
         /// Rota responsável por criar um banco novo no sistema
         /// </summary>
-        /// <param name="bancoDTO"></param>
-        /// <response code="200">o banco foi criado com sucesso</response>
-        /// <response code="400">Ocorreu algum erro ao criar o banco</response>
+        /// <param name="AlunoInsertDTO"></param>
+        /// <response code="200">o aluno foi criado com sucesso</response>
+        /// <response code="400">Ocorreu algum erro ao criar o aluno</response>
         /// <returns></returns>
         [HttpPost("PostMatricula")]
-
         public async Task<IActionResult> MatriculaAluno([FromBody] AlunoInsertDTO alunoInsertDTO)
         {
             var alunoInsert = _mapper.Map<Aluno>(alunoInsertDTO);
@@ -40,6 +39,12 @@ namespace Matricula.API.Controllers
             return Ok(200);
         }
 
+        /// <summary>
+        /// Atualiza os dados da matricula.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="matriculaAlunoUpdateDTO"></param>
+        /// <returns></returns>
         [HttpPut("{id:int}")]
         public async Task<ActionResult> AtualizarMatricula(int id, MatriculaAlunoUpdateDTO matriculaAlunoUpdateDTO)
         {
@@ -53,6 +58,10 @@ namespace Matricula.API.Controllers
             return Ok(200);
         }
 
+        /// <summary>
+        /// Retorna todas as matriculas
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("todas-matriculas")]
         public async Task<ActionResult<IEnumerable<MatriculaAlunoDTO>>> GetMatriculas()
         {
@@ -68,6 +77,11 @@ namespace Matricula.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Rota responsável por excluir a matricula
+        /// </summary>
+        /// <param name="id">identificador da matricula</param>
+        /// <returns></returns>
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<MatriculaAlunoDTO>> Delete(int id)
         {
@@ -79,6 +93,11 @@ namespace Matricula.API.Controllers
             return Ok(200);
         }
 
+        /// <summary>
+        /// Rota que retorna as matrículas pelo nome do aluno
+        /// </summary>
+        /// <param name="descricao"></param>
+        /// <returns></returns>
         [HttpGet("matricula-por-descricao")]
         public async Task<ActionResult<IEnumerable<MatriculaAlunoDTO>>> GetMatriculaPorAluno([FromQuery] string? descricao)
         {
@@ -95,6 +114,18 @@ namespace Matricula.API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError,
                     "Ocorreu um problema ao tratar a sua solicitação.");
             }
+        }
+
+        /// <summary>
+        /// Criado essa rota para ofertar a possibilidade de limpar todos os registros da base de dados.
+        /// </summary>
+        /// <returns></returns>
+        [HttpDelete()]
+        public async Task<ActionResult<MatriculaAlunoDTO>> DeletaTodosOsRegistros()
+        {
+            await _matriculaAlunoService.RemoveTodosRegistros();
+
+            return Ok(200);
         }
 
 

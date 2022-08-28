@@ -1,4 +1,5 @@
-﻿using Matricula.CrossCutting.Ioc;
+﻿using Matricula.API.HostedService;
+using Matricula.CrossCutting.Ioc;
 
 namespace Matricula.API
 {
@@ -15,6 +16,7 @@ namespace Matricula.API
             services.AddInfrastructure(Configuration);
             services.AddInfrastructureAPI(Configuration);
             services.AddControllers();
+            services.AddHostedService<ProcessImportHostedService>();            
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment environment)

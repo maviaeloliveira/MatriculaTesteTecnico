@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Matricula.Application.Services
 {
-    internal class ConfiguracaoSistemaService : IConfiguracaoSistemaService
+    public class ConfiguracaoSistemaService : IConfiguracaoSistemaService
     {
         private static int tempoDeExecucaoEmSegudos = 60;
 
@@ -17,7 +17,8 @@ namespace Matricula.Application.Services
         }
         public int RetornarTempoDeExecucao()
         {
-            return tempoDeExecucaoEmSegudos;
+            
+            return 1000 * tempoDeExecucaoEmSegudos;
         }
     }
 }

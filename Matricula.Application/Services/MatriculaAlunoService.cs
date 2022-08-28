@@ -23,6 +23,12 @@ namespace Matricula.Application.Services
             _notificationContext = notificationContext;
             _unitOfWork = unitOfWork;
         }
+        public async Task InserirMatriculaComAlunoAleatoria()
+        {
+            var matricula = new MatriculaAluno(new Aluno() {Nome = Faker.Name.FullName() });
+            
+            await this.Add(matricula);
+        }
 
         public async Task Add(MatriculaAluno matricula)
         {
@@ -45,14 +51,27 @@ namespace Matricula.Application.Services
         public async Task<MatriculaAluno> GetById(int? id)
         {
             var matricula = await _unitOfWork.matriculaAlunoRepository.GetById(id);
-
             return matricula;
         }
 
         public async Task Remove(int? id)
         {
             var matricula = await _unitOfWork.matriculaAlunoRepository.GetById(id);
+            await _unitOfWork.alunoRepository.Delete(matricula.Aluno);
             await _unitOfWork.matriculaAlunoRepository.Delete(matricula);
+            _unitOfWork.Commit();
+        }
+
+        public async Task RemoveTodosRegistros()
+        {
+            var matriculas = await _unitOfWork.matriculaAlunoRepository.GetMatriculas();
+
+            foreach (var item in matriculas)
+            {
+                await _unitOfWork.alunoRepository.Delete(item.Aluno);
+                await _unitOfWork.matriculaAlunoRepository.Delete(item);
+            }
+            
             _unitOfWork.Commit();
         }
 
