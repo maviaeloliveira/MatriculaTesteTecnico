@@ -4419,11 +4419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\docker\\Matricula\\Matricula.Application\\Matricula.Application.csproj",
+      "projectUniqueName": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Application\\Matricula.Application.csproj",
       "projectName": "Matricula.Application",
-      "projectPath": "C:\\Projetos\\docker\\Matricula\\Matricula.Application\\Matricula.Application.csproj",
+      "projectPath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Application\\Matricula.Application.csproj",
       "packagesPath": "C:\\Users\\Maviael\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\docker\\Matricula\\Matricula.Application\\obj\\",
+      "outputPath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maviael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4440,8 +4440,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj"
+            "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj"
             }
           }
         }

@@ -15,12 +15,12 @@ namespace Matricula.CrossCutting.Ioc
         {
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
-                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
-                    )
-                    .EnableSensitiveDataLogging(true)
-                    .UseLoggerFactory(loggerFactory)
-
+            options.UseMySql(
+                        configuration.GetConnectionString("DefaultConnection"), 
+                        ServerVersion.AutoDetect(configuration.GetConnectionString("DefaultConnection")),
+                        b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
+                   .EnableSensitiveDataLogging(true)
+                   .UseLoggerFactory(loggerFactory)
                 );
 
             //services.AddIdentity<ApplicationUser, IdentityRole>()

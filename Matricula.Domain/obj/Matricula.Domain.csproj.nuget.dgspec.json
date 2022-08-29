@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj": {}
+    "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj": {
+    "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj",
         "projectName": "Matricula.Domain",
-        "projectPath": "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj",
+        "projectPath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj",
         "packagesPath": "C:\\Users\\Maviael\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maviael\\AppData\\Roaming\\NuGet\\NuGet.Config",
