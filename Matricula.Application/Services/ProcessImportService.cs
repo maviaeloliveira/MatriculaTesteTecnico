@@ -26,7 +26,7 @@ namespace Matricula.Application.Services
             for (int i = 0; i < 5; i++)
             {
                 Thread.Sleep(2000);
-                matriculaAlunoAleatorio.InserirMatriculaComAlunoAleatoria();
+                matriculaAlunoAleatorio.AddMatriculaAlunoAleatorio();
             }
         }
 

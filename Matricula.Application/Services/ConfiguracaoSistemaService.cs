@@ -1,4 +1,5 @@
-﻿using Matricula.Domain.Interfaces.Service;
+﻿using Matricula.Application.Exceptions;
+using Matricula.Domain.Interfaces.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,21 @@ namespace Matricula.Application.Services
 {
     public class ConfiguracaoSistemaService : IConfiguracaoSistemaService
     {
-        private static int tempoDeExecucaoEmSegudos = 60;
+        private static int tempoDeExecucaoEmSegudos = 600;
 
-        public void AlterarTempoDeExecucao(int valor)
+        public void AlterarTempoDeExecucao(int segundos)
         {
-            tempoDeExecucaoEmSegudos = valor;
+            if (segundos <= 0)
+                throw new BusinessException("Informe um valor válido");
+
+            tempoDeExecucaoEmSegudos = segundos;
         }
-        public int RetornarTempoDeExecucao()
+        public int TempoDeExecucaoEmMilisegundos
         {
+            get{
+                return 1000 * tempoDeExecucaoEmSegudos;
+            }        
             
-            return 1000 * tempoDeExecucaoEmSegudos;
         }
     }
 }

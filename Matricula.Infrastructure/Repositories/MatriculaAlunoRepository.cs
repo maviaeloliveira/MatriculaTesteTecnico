@@ -16,21 +16,28 @@ namespace Matricula.Infrastructure.Repositories
         {
         }
 
-        public async Task<List<MatriculaAluno>> GetMatriculaPorAluno(string nome)
+        public async Task<MatriculaAluno> GetByIdComRelacionamento(int? id)
         {
             return await _context.MatriculaAluno
              .AsNoTracking()
-             .Where(c => c.Aluno.Nome.StartsWith(nome))
-             .Include(c=> c.Aluno)
+             .Where(c => c.Id.Equals(id))
+             .Include(c => c.Aluno)
+             .FirstOrDefaultAsync();
+        }
+
+        public async Task<List<MatriculaAluno>> GetMatriculaPorAluno(string nome)
+        {
+            return await _context.MatriculaAluno
+             .Where(c => c.Aluno.Nome.Contains(nome))
+             .Include(c => c.Aluno)
              .ToListAsync();
         }
 
         public async Task<List<MatriculaAluno>> GetMatriculas()
         {
             return await _context.MatriculaAluno
-             .AsNoTracking()
              .Include(c => c.Aluno)
-             .OrderByDescending(c=> c.DataMatricula)
+             .OrderByDescending(c => c.DataMatricula)
              .ToListAsync();
         }
     }

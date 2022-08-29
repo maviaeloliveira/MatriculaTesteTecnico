@@ -1,4 +1,5 @@
-﻿using Matricula.Domain.Interfaces.Service;
+﻿using Matricula.Application.Exceptions;
+using Matricula.Domain.Interfaces.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Matricula.API.Controllers
@@ -16,14 +17,23 @@ namespace Matricula.API.Controllers
         }
 
         [HttpPut("{valor:int}")]
-        public async Task<ActionResult> AtualizarTempoEmSegundos(int valor)
+        public ActionResult AtualizarTempoEmSegundos(int valor)
         {
-            if (valor == 0)
-                return BadRequest("Informe um valor válido");
+            try
+            {
+                 _configuracaoSistemaService.AlterarTempoDeExecucao(valor);
 
-             _configuracaoSistemaService.AlterarTempoDeExecucao(valor);
-
-            return Ok(200);
+                return Ok(204);
+            }
+            catch (BusinessException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                   "Ocorreu um problema ao tratar a sua solicitação.");
+            }
         }
 
     }

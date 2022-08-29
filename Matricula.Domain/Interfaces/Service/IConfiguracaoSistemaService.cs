@@ -10,6 +10,6 @@ namespace Matricula.Domain.Interfaces.Service
     {
         public void AlterarTempoDeExecucao(int valor);
 
-        public int RetornarTempoDeExecucao();
+        public int TempoDeExecucaoEmMilisegundos { get; }
     }
 }

@@ -11,5 +11,6 @@ namespace Matricula.Domain.Interfaces.Repository
     {
         public Task<List<MatriculaAluno>> GetMatriculaPorAluno(string nome);
         public Task<List<MatriculaAluno>> GetMatriculas();
+        public Task<MatriculaAluno> GetByIdComRelacionamento(int? id);
     }
 }

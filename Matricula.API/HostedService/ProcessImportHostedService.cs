@@ -56,7 +56,7 @@ namespace Matricula.API.HostedService
                     
                     GC.Collect();
                     isRunning = false;
-                    timer.Interval = _configuracaoSistemaService.RetornarTempoDeExecucao();
+                    timer.Interval = _configuracaoSistemaService.TempoDeExecucaoEmMilisegundos;
                     timer.Start();
                 }
             }

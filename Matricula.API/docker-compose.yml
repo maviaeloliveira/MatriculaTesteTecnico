@@ -1,0 +1,22 @@
+
+version: "3.9"  # optional since v1.27.0
+services:
+  matriculaApi:
+    image: ${DOCKER_REGISTRY-}phidelismatricula
+    build:
+        context: ../
+        dockerfile: ./Matricula/Dockerfile
+    ports:
+      - "8081:80"
+    depends_on:
+      - sqldata
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+        - SA_PASSWORD=Numsey#2022
+        - ACCEPT_EULA=Y
+    volumes:
+      - c:\volumesMssql:/var/opt/mssql/data
+    ports:
+      - "1450:1433"

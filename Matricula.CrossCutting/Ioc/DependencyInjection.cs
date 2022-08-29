@@ -24,7 +24,6 @@ namespace Matricula.CrossCutting.Ioc
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             services.AddScoped<IMatriculaAlunoService, MatriculaAlunoService>();
-            services.AddScoped<IAlunoService, AlunoService>();
             services.AddScoped<IProcessImportService, ProcessImportService>();
             
             //Definido como singleton, pois a intenção é que se mantenha o mesmo objeto durante o ciclo de vida.
