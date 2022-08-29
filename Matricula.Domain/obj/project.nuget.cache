@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AdFij0ELo1EulLNgf6yJyRGSMa8zvBEWubjrN2VNssYV2j4TWI17pCY3c5KJhmSKq1DbtjPrHG78LoNDGWCwSA==",
+  "dgSpecHash": "AlF6IgV/41DZUlpp3DN0Hys/IiyJQEXd9Gt01Yt+uMFHfOCSHHkXXF7FQsMZXnuLeDNvRpJEmJ0TKsIN+8XlUA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\docker\\Matricula\\Matricula.Domain\\Matricula.Domain.csproj",
+  "projectFilePath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Domain\\Matricula.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maviael\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\Maviael\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",

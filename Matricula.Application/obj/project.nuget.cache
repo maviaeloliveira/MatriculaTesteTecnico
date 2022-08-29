@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kp8YMFVe6qlw27Su75iO50lzU4lmywwhC/HpV3NaLUxhBnj/+CoxWI7LXd820SMbr6OnQ/agQ7pJkZUMdODp1g==",
+  "dgSpecHash": "C/Fa+O47xmVjt98Q/m7c3jCwlIXhZ6UtmSxO5fRmRjMDAL5JT9ike3bvdpnlnceE6IwGAc6w3zqlM5SbFExZ3w==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\docker\\Matricula\\Matricula.Application\\Matricula.Application.csproj",
+  "projectFilePath": "C:\\Projetos\\MatriculaTesteTecnico\\Matricula.Application\\Matricula.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maviael\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Maviael\\.nuget\\packages\\faker.netcore\\1.0.2\\faker.netcore.1.0.2.nupkg.sha512",

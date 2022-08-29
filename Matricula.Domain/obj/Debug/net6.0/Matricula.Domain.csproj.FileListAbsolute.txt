@@ -10,3 +10,15 @@ C:\Projetos\docker\Matricula\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.
 C:\Projetos\docker\Matricula\Matricula.Domain\obj\Debug\net6.0\refint\Matricula.Domain.dll
 C:\Projetos\docker\Matricula\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.pdb
 C:\Projetos\docker\Matricula\Matricula.Domain\obj\Debug\net6.0\ref\Matricula.Domain.dll
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\bin\Debug\net6.0\Matricula.Domain.deps.json
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\bin\Debug\net6.0\Matricula.Domain.dll
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\bin\Debug\net6.0\Matricula.Domain.pdb
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.csproj.AssemblyReference.cache
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.AssemblyInfoInputs.cache
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.AssemblyInfo.cs
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.dll
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\refint\Matricula.Domain.dll
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\Matricula.Domain.pdb
+C:\Projetos\MatriculaTesteTecnico\Matricula.Domain\obj\Debug\net6.0\ref\Matricula.Domain.dll
