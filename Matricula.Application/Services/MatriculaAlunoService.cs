@@ -85,9 +85,7 @@ namespace Matricula.Application.Services
                     throw new BusinessException("Aluno informado diferente do aluno na base de dados");
                 if(matriculaUpdate.Aluno.Invalid)
                     throw new BusinessException(string.Join(", ", matriculaUpdate.Aluno.ValidationResult.Errors.Select(a=> a.ErrorMessage)));
-                
-                matricula.Aluno = matriculaUpdate.Aluno;
-                
+                                
                 await _unitOfWork.alunoRepository.Update(matriculaUpdate.Aluno);
                 await _unitOfWork.matriculaAlunoRepository.Update(matriculaUpdate);
                 _unitOfWork.Commit();
